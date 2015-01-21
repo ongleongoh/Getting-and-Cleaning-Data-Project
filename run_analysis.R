@@ -44,5 +44,5 @@ train_data <- cbind(as.data.table(subject_train), y_train, X_train)
 
 # Merge test and train data (row merge)
 data = rbind(test_data, train_data)
-tidy_data <- ddply(data, .(subject,Activity_ID,Activity_Label), colwise(mean))
-write.table(tidy_data, file = "./tidy_data.txt")
+tidy_data <- ddply(data, .(subject, Activity_Label), colwise(mean))
+write.table(tidy_data, file = "./tidy_data.txt", row.name=FALSE)
