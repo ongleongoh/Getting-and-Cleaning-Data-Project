@@ -1,3 +1,12 @@
+# Data Set Information:
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
+Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
+wearing a smartphone (Samsung Galaxy S II) on the waist. 
+
+
+File Overview:
+
+
 # Variables
 activity_labels     - activity data from "activity_labels.txt"
 features            - features data from "features.txt"
@@ -12,4 +21,5 @@ test_data           - bind x_test, y_test and subject_test
 train_data          - bind X_train, y_train and subject_train
 data                - bind test_data and train_data.
 tidy_data           - tidy data and calculate the mean of each column.
+
 # Getting-and-Cleaning-Data-Project
