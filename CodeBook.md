@@ -3,7 +3,18 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
 wearing a smartphone (Samsung Galaxy S II) on the waist. 
 
-File Overview:
+###File Overview:
+<table>
+  <tr>
+    <th>ID</th><th>Activities</th><th>Activities</th>
+  </tr>
+  <tr>
+    <td>1</td><td>1</td><td>WALKING</td>
+  </tr>
+  <tr>
+    <td>2</td><td>2</td><td>WALKING_UPSTAIRS</td>
+  </tr>
+</table>
 
 
 ### Variables
